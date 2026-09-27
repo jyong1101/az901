@@ -1,0 +1,1057 @@
+[
+  {
+    "id": "AI-901-1",
+    "source": "AI-901",
+    "number": 1,
+    "category": "Implement AI solutions for text and speech by using Foundry",
+    "explanation": "The requirement is to convert written customer notifications into natural-sounding spoken audio . This is\nspeech synthesis , also known as text to speech .\n\nMicrosoft’s Azure Speech documentation describes text to speech as a capability that converts text into\nnatural-sounding synthesized speech. Therefore, for playing written notifications over a phone system, the\ncorrect Azure Speech capability is speech synthesis .\n\nWhy the other options are incorrect:\n\nA. speaker recognition identifies or verifies speakers by voice.\n\nC. speech recognition converts spoken audio into text.\n\nD. speech translation translates spoken audio between languages.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You need to convert written customer notifications into natural-sounding spoken audio that can be played over a phone system. Which Azure Speech in Foundry Tools capability should you use?",
+    "options": {
+      "A": "speaker recognition",
+      "B": "speech synthesis",
+      "C": "speech recognition",
+      "D": "speech translation"
+    },
+    "answer": [
+      "B"
+    ]
+  },
+  {
+    "id": "AI-901-2",
+    "source": "AI-901",
+    "number": 2,
+    "category": "Implement AI solutions for text and speech by using Foundry",
+    "explanation": "The completed sentence is:\n\nAn AI workload that produces new content based on user input is an example of generative AI .\n\nGenerative AI is used to create new content, such as text, images, code, audio, or other outputs, from user\nprompts or instructions.\n\nThe other options are incorrect:\n\ncontent understanding extracts or interprets information from existing content.\n\ninformation extraction identifies and extracts structured data from content.\n\ntext analysis analyzes existing text for entities, sentiment, key phrases, language, or summaries.",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "An AI workload that produces new content based on user input is an example of ____.",
+    "options": [
+      "content understanding",
+      "generative AI",
+      "information extraction",
+      "text analysis"
+    ],
+    "answer": [
+      "generative AI"
+    ]
+  },
+  {
+    "id": "AI-901-3",
+    "source": "AI-901",
+    "number": 3,
+    "category": "Describe principles of responsible AI",
+    "explanation": "The Microsoft responsible AI principle of inclusiveness means AI systems should be designed to empower\nand engage everyone, including people with different abilities, languages, and accessibility needs.\n\nTherefore, designing the interface to support multiple languages and screen readers is an example of\ninclusiveness .\n\n ： are incorrect:\nWhy the other options\n\nA. Provide explanations\n\n about how predictions are generated = Transparency\n\nC. Evaluate model outputs across demographic groups to reduce bias = Fairness\n\nD. Encrypt stored customer data and restrict access by using role-based controls = Privacy and security",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You are developing an AI-powered customer support application. Which task is an example of the Microsoft responsible AI principle of inclusiveness?",
+    "options": {
+      "A": "Provide explanations about how predictions are generated.",
+      "B": "Design the interface to support multiple languages and screen readers.",
+      "C": "Evaluate model outputs across demographic groups to reduce bias.",
+      "D": "Encrypt stored customer data and restrict access by using role-based controls."
+    },
+    "answer": [
+      "B"
+    ]
+  },
+  {
+    "id": "AI-901-4",
+    "source": "AI-901",
+    "number": 4,
+    "category": "Describe principles of responsible AI",
+    "explanation": "Evaluating model outcomes across demographic groups to reduce bias is an example of the Microsoft\nresponsible AI principle of fairness .\n\n discrimination across groups.\n\n 66organizations remain responsible for AI systems and their effects.\n\naccountability means people and\n\nprivacy and security focuses on protecting data and controlling access.\n\ntransparency means users should understand when and how AI is being used, including system capabilities\nand limitations.",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "Evaluating model outcomes across demographic groups to reduce bias is an example of the Microsoft responsible AI principle of ____.",
+    "options": [
+      "accountability",
+      "fairness",
+      "privacy and security",
+      "transparency"
+    ],
+    "answer": [
+      "fairness"
+    ]
+  },
+  {
+    "id": "AI-901-5",
+    "source": "AI-901",
+    "number": 5,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "The source PDF supplies answer C without an explanation. Its listed choices are AudioConfig, SpeechSynthesizer, and AuditOutputConfig. The stated answer and the connection configuration wording appear inconsistent; verify against the source or instructor before relying on this item.",
+    "verified": false,
+    "review_note": "Source marks C (AuditOutputConfig), but the question asks for the connection configuration class; source answer appears inconsistent. Preserved C. No explanation in the source PDF.",
+    "type": "mcq",
+    "question": "You are using the Azure Speech SDK to develop a Python application that supports real-time spoken conversations. Which Azure speech class should you use to configure the connection to the Azure Speech service?",
+    "options": {
+      "A": "AudioConfig",
+      "B": "SpeechSynthesizer",
+      "C": "AuditOutputConfig"
+    },
+    "answer": [
+      "C"
+    ]
+  },
+  {
+    "id": "AI-901-6",
+    "source": "AI-901",
+    "number": 6,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "In Microsoft Foundry Agent Service, tool_choice controls whether and how an agent uses tools during a run.\n\nStatement 1: Yes\n\nSetting tool_choice to auto lets the agent/model decide whether to call a tool. This statement is true.\n\nStatement 2: No\n\nSetting tool_choice to none does not mean the model decides whether to call a tool. It means the model will\nnot call a tool. This statement is false.\n\nStatement 3: Yes\n\nSetting tool_choice to required means the agent must call one or more tools during the run. This statement is\ntrue.\n\nMicrosoft documentation describes the tool_choice values as follows: auto allows the model to decide\nwhether to call tools, none prevents tool calls, and required forces one or more tool calls.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "Setting tool_choice to auto lets the agent/model decide whether to call a tool.",
+      "Setting tool_choice to none means the model decides whether to call a tool.",
+      "Setting tool_choice to required means the agent must call one or more tools during the run."
+    ],
+    "answer": [
+      "Yes",
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "id": "AI-901-7",
+    "source": "AI-901",
+    "number": 7,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "Azure Content Understanding analysis operations are long-running operations in the Python SDK. Microsoft’\ns Python SDK documentation states that analysis operations return a poller, and the SDK provides LROPoller\ntypes that handle polling automatically when you call .result() .\n\nTherefore, the correct workflow is to submit the PDF by calling begin_analyze() , receive a poller, and then\ncall:\n\nresult = poller.result()\n\nOption B is incorrect because extraction results are not read from request headers.\n\nOption C is incorrect because the requirement is to use Azure Content Understanding extraction, not build a\nmanual OCR-only mapping pipeline.\n\nOption D is incorrect because the SDK analysis pattern is asynchronous/long-running, not a simple\nsynchronous analyze() call that returns all extracted fields in the same request.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You are developing an application that extracts fields from PDFs by using Azure Content Understanding in Foundry Tools. You need to use the Python SDK to submit a PDF for analysis and retrieve the extraction results. What should you do?",
+    "options": {
+      "A": "Call begin_analyze(), and then call poller.result() to retrieve the results.",
+      "B": "Submit the PDF to an analyzer and read the results from the request headers.",
+      "C": "Use optical character recognition (OCR) to extract text from the PDF and map the fields in the code.",
+      "D": "Call analyze() to return the extracted fields synchronously in the same request."
+    },
+    "answer": [
+      "A"
+    ]
+  },
+  {
+    "id": "AI-901-8",
+    "source": "AI-901",
+    "number": 8,
+    "category": "Identify AI model components and configurations",
+    "explanation": "To minimize cost and keep generated responses within a defined length, configure Max Completion Tokens .\n\nMicrosoft’s Azure OpenAI / Foundry API reference defines max_completion_tokens as an upper bound for\nthe number of tokens that can be generated for a completion . Because generated tokens contribute to\nusage and response length, limiting completion tokens helps control both output length and cost.\n\nTemperature and Top P control randomness or sampling behavior, not maximum response length. Model\nversion settings do not directly define the generated response length.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You have a Microsoft Foundry project that has a generative AI model deployment. You need to ensure that responses generated by the model minimize costs and remain within a defined length. Which parameter should you configure?",
+    "options": {
+      "A": "Temperature",
+      "B": "Max Completion Tokens",
+      "C": "Top P",
+      "D": "Model version settings"
+    },
+    "answer": [
+      "B"
+    ]
+  },
+  {
+    "id": "AI-901-9",
+    "source": "AI-901",
+    "number": 9,
+    "category": "Identify AI model components and configurations",
+    "explanation": "Statement 1: Generating aresponse to a user prompt occurs during the inference stage.\n = Yes\n\nWhen a deployed generative AI model receives a user prompt and generates an output, that process is called\ninference . The model is being used to produce a response, not being trained.\n\nStatement 2: A generative AI model generates responses by copying stored documents directly from the\nmodel’s training data. = No\n\nGenerative AI models do not normally respond by simply copying stored documents from training data. They\ngenerate outputs based on learned statistical patterns. In some cases, models may reproduce memorized\ncontent, but that is not the normal or intended generation mechanism.\n\nStatement 3: A generative AI model produces output by predicting the next token based on patterns\nlearned from the model’s training data. = Yes\n\nThis is correct. Large language models generate text by predicting likely next tokens based on the prompt and\nlearned patterns from training.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "Generating a response to a user prompt occurs during the inference stage.",
+      "A generative AI model generates responses by copying stored documents directly from the model's training data.",
+      "A generative AI model produces output by predicting the next token based on patterns learned from the model's training data."
+    ],
+    "answer": [
+      "Yes",
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "id": "AI-901-10",
+    "source": "AI-901",
+    "number": 10,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "Statement 1: In the Foundry playground, you can upload a local image and include text in the same\nmessage when prompting a multimodal model. = Yes\n\nMicrosoft documentation for vision-enabled chat models states that in the chat session pane, you can select\nthe attachment button, upload an image, add a text prompt such as “Describe this image,” and then submit it.\n\nStatement 2: When using the OpenAI Responses API and a vision-enabled model, images can be\nprovided only as base64-encoded image data. = No\n\nImages are not limited to base64 data. The Responses API supports image input through an image URL, and\nAzure OpenAI documentation also describes examples using base64 encoded image data.\n\nStatement 3: Prompts that include images require deploying a text-only model because multimodal\ncapabilities are handled by the application layer. = No\n\nImage prompts require a vision-enabled multimodal model , not a text-only model. Azure OpenAI visioncapable models accept image and text inputs directly.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "In the Foundry playground, you can upload a local image and include text in the same message when prompting a multimodal model.",
+      "When using the OpenAI Responses API and a vision-enabled model, images can be provided only as base64-encoded image data.",
+      "Prompts that include images require deploying a text-only model because multimodal capabilities are handled by the application layer."
+    ],
+    "answer": [
+      "Yes",
+      "No",
+      "No"
+    ]
+  },
+  {
+    "id": "AI-901-11",
+    "source": "AI-901",
+    "number": 11,
+    "category": "Identify AI model components and configurations",
+    "explanation": "When using the OpenAI Responses API and a vision-enabled model, you can include an image in a\nrequest by providing the image as a base64-encoded image data .\n\nAzure OpenAI / Microsoft Foundry vision requests support image input as an input_image item. The image\ncan be provided by URL or as base64-encoded image data in the request. Microsoft documentation for Azure\nOpenAI batch examples also lists Base64 encoded image and Image URL as supported input patterns for\nResponses API requests.\n\nThe other options are incorrect:\n\na CSV file attachment is not an image input format for vision analysis.\n\nan MP4 video stream is video content, not an image format.\n\na shared access signature (SAS) token is only an access token for a protected resource; it is not the image\ndata itself.",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "When using the OpenAI Responses API and a vision-enabled model, you can include an image in a request by providing the image as ____.",
+    "options": [
+      "base64-encoded image data",
+      "a CSV file attachment",
+      "an MP4 video stream",
+      "a shared access signature (SAS) token"
+    ],
+    "answer": [
+      "base64-encoded image data"
+    ]
+  },
+  {
+    "id": "AI-901-12",
+    "source": "AI-901",
+    "number": 12,
+    "category": "Describe principles of responsible AI",
+    "explanation": "Statement 1: Fairness can be achieved by focusing solely on improving the overall accuracy of an AI\nmodel. = No\n\nOverall accuracy alone does not guarantee fairness. A model can have high overall accuracy while still\nproducing biased or lower-quality outcomes for specific demographic groups. Fairness requires evaluating\nand reducing differences in model behavior across groups.\n\nStatement 2: Evaluating AI system outputs to identify and reduce bias across demographic groups\nsupports fairness. = Yes\n\nThis statement is correct. The Microsoft responsible AI principle of fairness means AI systems should treat\n\npeople fairly\n\nbias.\n\n fairness same output\nfrom the system. = No\n\nFairness does not mean identical outputs for all users. It means the system should avoid unfair bias and\nprovide equitable treatment. Different users may receive different outputs when differences are relevant and\nappropriate.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "Fairness can be achieved by focusing solely on improving the overall accuracy of an AI model.",
+      "Evaluating AI system outputs to identify and reduce bias across demographic groups supports fairness.",
+      "Ensuring fairness for an AI system means that all users always receive the same output from the system."
+    ],
+    "answer": [
+      "No",
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "id": "AI-901-13",
+    "source": "AI-901",
+    "number": 13,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "The question specifically states the application must save the synthesized audio to a file . In the Azure\nSpeech SDK for Python, speechsdk.audio.AudioOutputConfig(filename=\"output.wav\") directs the synthesizer\nto write the generated speech output directly to a WAV file on disk — which is exactly the requirement.\n\nWhy the other options are wrong:\n\n AudioOutputConfig(stream) — This routes audio output to an in-memory audio stream object, not a\n file. It is used when you want to process or play the audio programmatically without saving it to disk.\n\n AudioStreamFormat(wave_stream_format=AudioStreamWaveFormat.PCM) — This class\n defines the format of an audio stream (e.g., PCM encoding, sample rate). It is used when configuring\n custom audio streams, not when specifying a file output destination. It is not a valid argument for\n speechsdk.audio. in this context.\n\nThe correct and complete line is:\n\naudio_config = speechsdk.audio.AudioOutputConfig(filename=\"output.wav\")",
+    "verified": true,
+    "review_note": "",
+    "type": "code_select",
+    "question": "You are developing an application that converts text into spoken audio and saves the synthesized audio to a\nfile by using Azure Speech in Foundry Tools.\n\nHow should you complete the Python code? To answer, select the appropriate option in the answer area.",
+    "template": "audio_config = speechsdk.audio.____",
+    "choices": [
+      [
+        "AudioOutputConfig(filename=\"output.wav\")",
+        "AudioOutputConfig(stream)",
+        "AudioStreamFormat(wave_stream_format=AudioStreamWaveFormat.PCM)"
+      ]
+    ],
+    "answer": [
+      "AudioOutputConfig(filename=\"output.wav\")"
+    ]
+  },
+  {
+    "id": "AI-901-14",
+    "source": "AI-901",
+    "number": 14,
+    "category": "Implement AI solutions for text and speech by using Foundry",
+    "explanation": "Statement 1: Voice Live returns only transcribed text. = No\n\nVoice Live is not limited to transcription. Microsoft documentation states that the Voice Live API supports\nreal-time bidirectional voice applications, including speech recognition, text-to-speech synthesis, avatar\nstreaming, animation data, and audio processing.\n\nStatement 2: Voice Live requires you to separately implement speech to text and text to speech services.\n= No\n\nVoice Live provides a single real-time voice API experience rather than requiring separate STT and TTS\nimplementations for the conversational loop. Microsoft describes live AI voice conversations as combining\nspeech capabilities for real-time interaction, and the Voice Live API includes speech recognition and text-tospeech synthesis features.\n\nStatement 3: Voice Live combines speech to text, reasoning, and text to speech into a single\nconversational experience. = Yes\n\nThis is correct. Microsoft’s guidance explains that Azure OpenAI audio/realtime capabilities are for scenarios\nthat combine audio with language understanding, reasoning, or generation in a single model call, and Voice\nLive supports real-time voice-enabled applications over WebSocket connections.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "Voice Live returns only transcribed text.",
+      "Voice Live requires you to separately implement speech to text and text to speech services.",
+      "Voice Live combines speech to text, reasoning, and text to speech into a single conversational experience."
+    ],
+    "answer": [
+      "No",
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "id": "AI-901-15",
+    "source": "AI-901",
+    "number": 15,
+    "category": "Identify AI workloads",
+    "explanation": "Generating marketing email drafts from a short product description and target audience is a content\ngeneration task. This is a generative AI workload because the system creates new text based on the user’s\nprompt.\n\nB. computer vision is for interpreting images or video.\n\nC. text classification categorizes existing text, but does not draft new marketing emails.\n\nD. speech recognition converts spoken audio into text.\n\nTherefore, the correct answer is A. generative AI .",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You need to build an AI solution that generates marketing email drafts based on a short description of a product and its target audience. Which AI workload should you use?",
+    "options": {
+      "A": "generative AI",
+      "B": "computer vision",
+      "C": "text classification",
+      "D": "speech recognition"
+    },
+    "answer": [
+      "A"
+    ]
+  },
+  {
+    "id": "AI-901-16",
+    "source": "AI-901",
+    "number": 16,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "To call a deployed Azure OpenAI model from an application, the app must know the service endpoint and\nauthenticate its request. Microsoft documentation states that Azure OpenAI supports API key authentication\nor Microsoft Entra ID authentication, and API key authentication requires including the API key in the\nrequest. Microsoft quickstart guidance also states that to successfully make a call against Azure OpenAI, you\nneed an endpoint and a key.\n\nThe application does not need the model training dataset, the Foundry project display name, or exported\nplayground session history to call the deployed model.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You have a Microsoft Foundry project that contains a generative AI model deployment. You test the model by using the Foundry playground. You need to develop an application that sends requests to the deployed model. Which information must the application include to call the model?",
+    "options": {
+      "A": "The model training dataset",
+      "B": "The Foundry project display name",
+      "C": "The exported playground session history",
+      "D": "The model endpoint and authentication credentials"
+    },
+    "answer": [
+      "D"
+    ]
+  },
+  {
+    "id": "AI-901-17",
+    "source": "AI-901",
+    "number": 17,
+    "category": "Identify AI model components and configurations",
+    "explanation": "Statement 1: In the new Microsoft Foundry portal, you must fine-tune a model before you can deploy\nthe model. = No\n\nFine-tuning is optional. Microsoft’s Foundry model deployment documentation describes deploying Foundry\nModels directly from the model catalog for inference. It does not require fine-tuning first.\n\nStatement 2: In the new Microsoft Foundry portal, you can test a model from the model catalog only\nafter you deploy the model. = No\n\nMicrosoft documentation states that some Foundry Tools are available to try via the model catalog\nwithout a project , and Foundry playgrounds are used for prototyping and validation before production.\nTherefore, the statement using “only after you deploy” is too restrictive.\n\nafter retraining the model. = No\n\n required before deployment. Microsoft states that after you deploy\n\nModel, you can interact with it in 6the Foundry Playground and use it from code, and the deployment\n\nworkflow starts by selecting a model from the model catalog and choosing Deploy .",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "In the new Microsoft Foundry portal, you must fine-tune a model before you can deploy the model.",
+      "In the new Microsoft Foundry portal, you can test a model from the model catalog only after you deploy the model.",
+      "In the new Microsoft Foundry portal, you can deploy a model from the model catalog only after retraining the model."
+    ],
+    "answer": [
+      "No",
+      "No",
+      "No"
+    ]
+  },
+  {
+    "id": "AI-901-18",
+    "source": "AI-901",
+    "number": 18,
+    "category": "Implement AI solutions for text and speech by using Foundry",
+    "explanation": "The correct Python method is:\n\nrecognizer.recognize_once()\n\nCompleted code:\n\nimport azure.cognitiveservices.speech as speechsdk\n\nspeech_config = speechsdk.SpeechConfig(subscription=key, region=region)\n\nrecognizer = speechsdk.SpeechRecognizer(speech_config=speech_config)\n\nrecognizer.recognize_once()\n\nMicrosoft’s Azure Speech documentation for Foundry Tools explains that Speech to text is used for real-time\nspeech recognition and converting spoken audio into text. The Python Speech SDK uses a SpeechRecognizer\nobject for recognition from audio input, such as a microphone.\n\nWhy the other options are incorrect:\n\nrecognizer.speak_text_async(\"Ready\") is incorrect because speaking text is text-to-speech , not speech-totext recognition.\n\nrecognizer.start_continuous_recognition() can be used for continuous recognition, but the code shown is\nasking for the basic method to recognize spoken input and convert it to text from the SpeechRecognizer.\n\nrecognizer.start_keyword_recognition() is used for keyword/wake-word recognition, not general speech-totext transcription of spoken commands.\n\nTherefore, the correct answer is:\n\nrecognizer.recognize_once()",
+    "verified": true,
+    "review_note": "",
+    "type": "code_select",
+    "question": "You are developing a voice application that listens for spoken commands and converts them into text by using\nAzure Speech in Foundry Tools.\n\nHow should you complete the Python code? To answer, select the appropriate option in the answer area.",
+    "template": "recognizer.____",
+    "choices": [
+      [
+        "recognize_once()",
+        "speak_text_async(\"Ready\")",
+        "start_continuous_recognition()",
+        "start_keyword_recognition()"
+      ]
+    ],
+    "answer": [
+      "recognize_once()"
+    ]
+  },
+  {
+    "id": "AI-901-19",
+    "source": "AI-901",
+    "number": 19,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "Microsoft’s Foundry Agent Service documentation states that tool_choice provides deterministic control over\ntool calling:\n\nauto means the model decides whether to call tools.\n\nrequired means the model must call one or more tools .\n\nnone means the model does not call tools.\n\nTherefore:\n\nA. auto = Incorrect, because the model may or may not call the Azure function.\n\nB. none = Incorrect, because this prevents tool/function calls.\n\nC. required = Correct, because it forces the agent to call a tool.\n\nThe Azure OpenAI function-calling documentation also confirms that tool_choice=\"auto\" lets the model\ndecide whether to call a function, while tool_choice=\"none\" forces a user-facing response without a tool call.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You have a Microsoft Foundry project that contains an agent named Agent1. You need to ensure that Agent1 always calls an Azure function when the agent responds to user input. To what should you set tool_choice for Agent1?",
+    "options": {
+      "A": "auto",
+      "B": "none",
+      "C": "required"
+    },
+    "answer": [
+      "C"
+    ]
+  },
+  {
+    "id": "AI-901-20",
+    "source": "AI-901",
+    "number": 20,
+    "category": "Implement AI solutions with computer vision and image-generation capabilities by using Foundry",
+    "explanation": "The completed sentence is:\n\nInformation extraction solutions that detect and read text in scanned documents and images rely on\ncomputer vision .\n\nDetecting and reading text in scanned documents and images is typically done with OCR , which is a\ncomputer vision capability. Microsoft describes OCR as text recognition/text extraction that extracts printed\nor handwritten text from images and documents.",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "Information extraction solutions that detect and read text in scanned documents and images rely on ____.",
+    "options": [
+      "computer vision",
+      "image generation",
+      "sentiment analysis",
+      "speech synthesis"
+    ],
+    "answer": [
+      "computer vision"
+    ]
+  },
+  {
+    "id": "AI-901-21",
+    "source": "AI-901",
+    "number": 21,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "When content is submitted to Azure Content Understanding in Foundry Tools, the analysis is asynchronous .\nThis means the service does not return results immediately within the same HTTP request. Instead, it uses the\nstandard Azure long-running operation (LRO) pattern — you call begin_analyze() to submit the content,\nwhich immediately returns a poller object, and then call poller.result() to wait for processing to complete and\nretrieve the structured extraction results.\n\nWhy the other options are wrong:\n\n Synchronous is incorrect — the analysis pipeline involves multiple AI steps (OCR, speech\n transcription, schema mapping) that take time; a blocking synchronous call is not supported.\n\n Returned only as unstructured plain text is incorrect — Azure Content Understanding returns richly\n structured JSON output with named fields mapped to your defined schema, not plain unstructured text.\n\n Limited to OCR-only processing is incorrect — Content Understanding goes far beyond OCR; it\n supports document, audio, image, and video analyzers, and performs semantic field extraction using AI,\n not just character recognition.\n\nThis asynchronous design is consistent across all Azure AI services that perform complex, multi-step content\nprocessing.",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "When content is submitted to Azure Content Understanding in Foundry Tools, the analysis is ____.",
+    "options": [
+      "synchronous",
+      "asynchronous",
+      "returned only as unstructured plain text",
+      "limited to optical character recognition (OCR)-only processing"
+    ],
+    "answer": [
+      "asynchronous"
+    ]
+  },
+  {
+    "id": "AI-901-22",
+    "source": "AI-901",
+    "number": 22,
+    "category": "Implement AI solutions for information extraction by using Foundry",
+    "explanation": "Azure Content Understanding analyzers define the type of content to process, such as documents, images,\naudio, or video , and what to extract, such as text, layout, fields, transcripts, and structured JSON output.\nMicrosoft lists base analyzer types such as prebuilt-document, prebuilt-audio, prebuilt-video, and prebuiltimage.\n\nFor scanned invoices in PDF format , the correct choice is document analyzer , because invoices are\ndocument/form content. Microsoft’s Content Understanding quickstart specifically uses the prebuilt-invoice\nanalyzer to extract structured data from an invoice PDF.\n\nFor voicemail recordings in WAV format , the correct choice is audio analyzer , because voicemail is\naudio content. Content Understanding supports structured data extraction from audio files, and the analyzer\nreference identifies prebuilt-audio as the base analyzer for audio content.",
+    "verified": true,
+    "review_note": "",
+    "type": "matching",
+    "question": "You are developing an application that extracts structured information from different types of content by\nusing Azure Content Understanding in Foundry Tools.\n\nYou need to extract scanned invoices in the PDF format and voicemail recordings in the WAV format.\n\nWhich type of analyzer should you use for each content type? To answer, drag the appropriate analyzer types\nto the correct content types. Each analyzer type may be used once, more than once, or not at all. You may\nneed to drag the split bar between panes or scroll to view content.",
+    "targets": [
+      "Scanned invoices (PDF)",
+      "Voicemail recordings (WAV)"
+    ],
+    "choices": [
+      "audio analyzer",
+      "document analyzer",
+      "image analyzer",
+      "video analyzer"
+    ],
+    "answer": [
+      "document analyzer",
+      "audio analyzer"
+    ]
+  },
+  {
+    "id": "AI-901-23",
+    "source": "AI-901",
+    "number": 23,
+    "category": "Implement AI solutions for text and speech by using Foundry",
+    "explanation": "For thousands of recorded support calls stored as audio files in Azure Storage, the correct capability is speech\nto text batch transcription .\n\nMicrosoft states that batch transcription is designed to transcribe a large amount of audio data in storage ,\nincluding audio files in Azure Blob Storage, and that files can be processed concurrently to reduce turnaround\ntime.\n\nReal-time transcription is for live audio, not large stored batches. Text to speech converts text into audio.\nSpeech translation translates speech between languages, but the requirement is to generate transcripts.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "Your company has thousands of recorded customer support calls in multiple languages stored as audio files in Azure Storage. You need to generate text transcripts of all the recordings. Which Azure Speech in Foundry Tools capability should you use?",
+    "options": {
+      "A": "speech to text batch transcription",
+      "B": "speech to text real-time transcription",
+      "C": "text to speech",
+      "D": "speech translation"
+    },
+    "answer": [
+      "A"
+    ]
+  },
+  {
+    "id": "AI-901-24",
+    "source": "AI-901",
+    "number": 24,
+    "category": "Implement AI solutions for information extraction by using Foundry",
+    "explanation": "The requirement is to extract structured fields, including nested values, from invoices by using a defined\nschema . In Azure Content Understanding, an analyzer is the processing unit that defines how content is\nanalyzed, what information is extracted, and how the output is structured, including JSON fields.\n\nMicrosoft’s Content Understanding document solutions documentation states that Content Understanding uses\ncustomizable analyzers to extract essential information, fields, and relationships from documents and forms.\nMicrosoft’s quickstart also shows invoice processing with the prebuilt-invoice analyzer to extract structured\n\nWhy the other options\n\n Speech is for converting audio to text, not invoice field extraction.\nA. transcription workflow in Azure\nB. OCR-only document processing can extract text but does not meet the requirement for structured fields\nand nested values by schema.\n\nD. Azure AI Search is for indexing and querying content, not defining invoice extraction schemas.\n\nTherefore, the correct answer is C. an analyzer in Azure Content Understanding in Foundry Tools .",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You are developing a web app that processes invoices to calculate expenses. You need to extract structured fields, including nested values, from the invoices by using a defined schema. What should you use?",
+    "options": {
+      "A": "a transcription workflow in Azure Speech in Foundry Tools",
+      "B": "an optical character recognition (OCR)-only document processing pipeline",
+      "C": "an analyzer in Azure Content Understanding in Foundry Tools",
+      "D": "an Azure AI Search service"
+    },
+    "answer": [
+      "C"
+    ]
+  },
+  {
+    "id": "AI-901-25",
+    "source": "AI-901",
+    "number": 25,
+    "category": "Identify AI model components and configurations",
+    "explanation": "A system prompt, also called a system message, is used to guide how a generative AI model behaves,\nincluding its tone, role, response style, and output format. Microsoft states that system messages help steer an\nAzure OpenAI chat model toward the desired behavior, tone, and output format.\n\nStatement 1: System prompts can be used to authorize users. = No\n\nAuthorization is handled by application identity, access control, authentication, and security configuration. A\nsystem prompt can guide model behavior, but it is not an authorization mechanism.\n\nStatement 2: A system prompt is used to reduce tokens per minute (TPM). = No\n\nTPM is a quota or throughput setting for model deployments. A system prompt does not reduce or configure\nTPM.\n\nStatement 3: A system prompt guides the behavior of a generative AI model. = Yes\n\nThis is correct. Microsoft documentation says system messages help steer the model’s behavior, tone, and\noutput format.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "System prompts can be used to authorize users.",
+      "A system prompt is used to reduce tokens per minute (TPM).",
+      "A system prompt guides the behavior of a generative AI model."
+    ],
+    "answer": [
+      "No",
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "id": "AI-901-26",
+    "source": "AI-901",
+    "number": 26,
+    "category": "Describe principles of responsible AI",
+    "explanation": "Fairness\n\n Privacy and security\n\n Transparency\n\n Reliability and safety\n\nComprehensive and Detailed Explanation with all Azure AI documents : =\n\nEvaluating model outputs to ensure that decisions are NOT biased against specific demographic groups:\nFairness\n\nMicrosoft’s responsible AI principle of fairness means AI systems should treat people fairly and avoid unfair\nbias across demographic groups.\n\nEncrypting sensitive customer data and restricting system access to authorized personnel: Privacy and\nsecurity\n\nThe privacy and security principle requires AI systems to protect personal and sensitive data and prevent\nunauthorized access.\n\nInforming users when they are interacting with an AI system and explaining the system’s capabilities\nand limitations: Transparency\n\nThe transparency principle requires that people understand when they are interacting with AI and understand\nthe system’s purpose, capabilities, and limitations.\n\nTesting AI systems under different conditions to reduce unexpected failures: Reliability and safety\n\nThe reliability and safety principle means AI systems should operate reliably and safely, including through\ntesting and validation under expected and unexpected conditions.",
+    "verified": true,
+    "review_note": "",
+    "type": "matching",
+    "question": "You are reviewing best practices for using AI at your company.\n\nWhich Microsoft responsible AI principle is each task an example of? To answer, drag the appropriate\nprinciples to the correct tasks. Each task may be used once, more than once, or not at all. You may need to\ndrag the split bar between panes or scroll to view content.\n\nNOTE: Each correct match is worth one point.",
+    "targets": [
+      "Evaluating model outputs to ensure that decisions are not biased against specific demographic groups",
+      "Encrypting sensitive customer data and restricting system access to authorized personnel",
+      "Informing users when they are interacting with an AI system and explaining its capabilities and limitations",
+      "Testing AI systems under different conditions to reduce unexpected failures"
+    ],
+    "choices": [
+      "Fairness",
+      "Privacy and security",
+      "Transparency",
+      "Reliability and safety",
+      "Accountability"
+    ],
+    "answer": [
+      "Fairness",
+      "Privacy and security",
+      "Transparency",
+      "Reliability and safety"
+    ]
+  },
+  {
+    "id": "AI-901-27",
+    "source": "AI-901",
+    "number": 27,
+    "category": "Implement AI solutions for text and speech by using Foundry",
+    "explanation": "The correct text analysis technique is Named Entity Recognition (NER) .\n\nMicrosoft defines NER as a feature that identifies and categorizes entities in unstructured text, including\npeople, places, and organizations .\n\nSentiment analysis detects positive, negative, or neutral opinion. Summarization creates shorter versions of\ntext. Key phrase extraction identifies important phrases, but it does not specifically classify mentions as\npeople, organizations, or locations.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "Your company processes customer support emails. You need to implement an AI solution that automatically identifies mentions of people, organizations, and locations in the emails. Which text analysis technique should you use?",
+    "options": {
+      "A": "sentiment analysis",
+      "B": "Named Entity Recognition (NER)",
+      "C": "summarization",
+      "D": "key phrase extraction"
+    },
+    "answer": [
+      "B"
+    ]
+  },
+  {
+    "id": "AI-901-28",
+    "source": "AI-901",
+    "number": 28,
+    "category": "Identify AI model components and configurations",
+    "explanation": "Statement 1: The Temperature parameter can be set before deploying a model. = No\n\ntemperature is an inference/request parameter used when calling or testing a deployed model. It controls\nrandomness in generated responses. It is not a required setting for deploying the model itself.\n\nStatement 2: During inference, the model name is used to route requests to a specific deployment. = No\n\nIn Azure OpenAI / Microsoft Foundry deployments, application requests are routed to a specific deployment\nname , even when the SDK parameter is called model. The underlying model name, such as gpt-4.1-mini, is\nnot what routes the request to the deployment.\n\nStatement 3: After a model is deployed, both code and testing tools can be used to interact with the\nmodel. = Yes\n\nAfter deployment, you can test the model in Foundry playground/testing tools or call the deployment from\napplication code by using the endpoint, deployment name, and authentication credentials.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "The Temperature parameter can be set before deploying a model.",
+      "During inference, the model name is used to route requests to a specific deployment.",
+      "After a model is deployed, both code and testing tools can be used to interact with the model."
+    ],
+    "answer": [
+      "No",
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "id": "AI-901-29",
+    "source": "AI-901",
+    "number": 29,
+    "category": "Describe principles of responsible AI",
+    "explanation": "The completed sentence is:\n\nEnsuring that human reviewers oversee AI-generated decisions and remain responsible for the final\noutput is an example of the Microsoft responsible AI principle of accountability .\n\nAccountability means people and organizations remain responsible for AI systems and their effects. Human\nreview and responsibility for final decisions are examples of accountability.\n\nThe other options are incorrect:\n\nfairness focuses on avoiding bias and treating people fairly.\n\nprivacy and security focuses on protecting data and restricting access.\n\ntransparency focuses on explaining AI use, capabilities, and limitations.",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "Ensuring that human reviewers oversee AI-generated decisions and remain responsible for the final output is an example of the Microsoft responsible AI principle of ____.",
+    "options": [
+      "accountability",
+      "fairness",
+      "privacy and security",
+      "transparency"
+    ],
+    "answer": [
+      "accountability"
+    ]
+  },
+  {
+    "id": "AI-901-30",
+    "source": "AI-901",
+    "number": 30,
+    "category": "Identify AI model components and configurations",
+    "explanation": "The completed sentence is:\n\nTo define an agent's role and behaviors, you must configure a system prompt for the agent.\n\nIn Microsoft Foundry / Azure AI agent scenarios, the system prompt , also referred to as system instructions\n, defines how the agent should behave, what role it should follow, and what constraints it must observe.\n\nThe other options are incorrect:\n\ndeployment slot relates to hosting/deployment routing, not agent behavior.\n\nembedding index is used for vector search or retrieval scenarios, not defining the agent’s role.\n\nfine tuning job changes or adapts model behavior through training, but it is not the standard configuration\nused to define an agent’s role and behavior at runtime.\n\nTherefore, the correct answer is system prompt .",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "To define an agent's role and behaviors, you must configure a ____ for the agent.",
+    "options": [
+      "deployment slot",
+      "embedding index",
+      "fine tuning job",
+      "system prompt"
+    ],
+    "answer": [
+      "system prompt"
+    ]
+  },
+  {
+    "id": "AI-901-31",
+    "source": "AI-901",
+    "number": 31,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "When using the Azure OpenAI Responses API with a vision-enabled model, the image must be included as\nan input image content item . The correct content item type is:\n\n{\"type\": \"input_image\", \"image_url\": image_url}\n\nMicrosoft’s Azure OpenAI Responses API documentation states that the Responses API supports image\ninputs, and multimodal requests use structured input content items for the request.\n\nWhy the other options are incorrect:\n\nA. image_base64 = Incorrect. Base64 data can be used as the image data format, but the content item type is\nstill input_image.\n\nB. image_generation = Incorrect. This is related to generating images, not providing an image for analysis.\n\nC. output_image = Incorrect. This would refer to generated output, not image input.\n\nD. input_image = Correct.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You have a Microsoft Foundry project that contains a vision-enabled model deployment. You use the Azure OpenAI Responses API to send a prompt to the model. You need to provide an image for analysis. Which content item should you include in the request?",
+    "options": {
+      "A": "image_base64",
+      "B": "image_generation",
+      "C": "output_image",
+      "D": "input_image"
+    },
+    "answer": [
+      "D"
+    ]
+  },
+  {
+    "id": "AI-901-32",
+    "source": "AI-901",
+    "number": 32,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "To create an AI agent that follows a specific role and behavior, you configure system instructions . Microsoft\nFoundry Agent Service documentation states that agent instructions define goals, constraints, and behavior\n.\n\n tokens\n\nOption C. temperaturecontrols response randomness/creativity, not the agent’s role.\n\n controls response length, not the agent’s role or behavioral rules.\nOption D. max completion tokens\nTherefore, the correct answer is B. system instructions .",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You need to create an AI agent in Microsoft Foundry that follows a specific role and behavior when responding to users. What should you configure?",
+    "options": {
+      "A": "tokens per minute (TPM)",
+      "B": "system instructions",
+      "C": "temperature",
+      "D": "max completion tokens"
+    },
+    "answer": [
+      "B"
+    ]
+  },
+  {
+    "id": "AI-901-33",
+    "source": "AI-901",
+    "number": 33,
+    "category": "Describe principles of responsible AI",
+    "explanation": "The Microsoft responsible AI principle of transparency requires that AI systems be explainable to users. Transparency means users should understand when they are interacting with AI, what the system can and cannot do, and how outputs or predictions are generated at an appropriate level. Protecting sensitive user data corresponds to privacy and security; reducing bias to fairness; and human oversight to accountability.",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "The Microsoft responsible AI principle of transparency requires that AI systems ____.",
+    "options": [
+      "be explainable to users",
+      "protect sensitive user data",
+      "reduce bias in decisions",
+      "require human oversight"
+    ],
+    "answer": [
+      "be explainable to users"
+    ]
+  },
+  {
+    "id": "AI-901-34",
+    "source": "AI-901",
+    "number": 34,
+    "category": "Implement AI solutions with computer vision and image-generation capabilities by using Foundry",
+    "explanation": "A schema defines which fields to extract when analyzing content. In Azure Content Understanding, the schema or fieldSchema defines structured data that the analyzer extracts, including field names, types, and extraction behavior. A keyword list and OCR-only processing do not define the complete structured output fields; a synchronous API call describes a request pattern.",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "A ____ defines which fields to extract when analyzing content by using Azure Content Understanding in Foundry Tools.",
+    "options": [
+      "A keyword list",
+      "Optical character recognition (OCR)-only processing",
+      "A schema",
+      "A synchronous API call"
+    ],
+    "answer": [
+      "A schema"
+    ]
+  },
+  {
+    "id": "AI-901-35",
+    "source": "AI-901",
+    "number": 35,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "Statement 1: An AI generative model is retrained before performing each user request. = No\n\nA generative AI model is not retrained for every user request. During normal use, the model performs\ninference: it receives input, processes the prompt, and generates a response based on the deployed model.\n\nStatement 2: An AI agent responds by copying and pasting answers stored in a database. = No\n\nAn AI agent does not simply copy and paste stored answers. Agents use generative AI models, instructions,\ncontext, and optionally tools or connected data sources to reason over user input and produce responses or\nactions.\n\nStatement 3: An AI agent uses a generative AI model to establish actions based on user input. = Yes\n\nThis is correct. An AI agent uses a generative AI model together with instructions and available tools to\ninterpret user input, determine the next action, and generate a response.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "An AI generative model is retrained before performing each user request.",
+      "An AI agent responds by copying and pasting answers stored in a database.",
+      "An AI agent uses a generative AI model to establish actions based on user input."
+    ],
+    "answer": [
+      "No",
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "id": "AI-901-36",
+    "source": "AI-901",
+    "number": 36,
+    "category": "Identify AI model components and configurations",
+    "explanation": "To compare the costs of large language models in Microsoft Foundry portal, use the Model leaderboard .\n\nMicrosoft documentation states that the model leaderboard helps compare models across quality, safety,\nestimated cost, and throughput . It also supports trade-off charts and side-by-side model comparison for\nfeatures, performance, and estimated cost.\n\n ： are incorrect:\n\n selecting\n\n comparing\n\nLLM costs.\nC. Compliance relates to governance and compliance, not model cost comparison.\n\nD. Tools provides Foundry tools, not benchmarked cost comparison across models.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You need to compare the costs of large language models (LLMs) for a generative AI solution. What should you use in the Microsoft Foundry portal?",
+    "options": {
+      "A": "Evaluator catalog",
+      "B": "Model leaderboard",
+      "C": "Compliance",
+      "D": "Tools"
+    },
+    "answer": [
+      "B"
+    ]
+  },
+  {
+    "id": "AI-901-37",
+    "source": "AI-901",
+    "number": 37,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "The completed code is:\n\npoller = client.begin_analyze(\n\nanalyzer_id=\"invoice\",\n\ninput_url=url\n\n)\n\nresult = poller.result()\n\nAzure Content Understanding analysis uses a long-running operation pattern. The Python SDK returns a\npoller from begin_analyze(), and Microsoft documentation states that the SDK poller handles polling\nautomatically when you call .result() .\n\nTherefore, to retrieve the analysis results after processing completes, the correct option is:\n\nresult\n\nThe other options are incorrect because status checks operation state, wait waits without returning the final\nanalysis object, and get_results is not the method shown for retrieving the begin_analyze() result in this code\npattern.",
+    "verified": true,
+    "review_note": "",
+    "type": "code_select",
+    "question": "You are developing an application that analyze invoices by using Azure Content Understanding in Foundry\nTools.\n\nYou need to ensure that the application retrieves the analysis results after processing completes.\n\nHow should you complete the Python code? To answer, select the appropriate option in the answer area.",
+    "template": "poller = client.begin_analyze(analyzer_id=\"invoice\", input_url=url)\nresult = poller.____()",
+    "choices": [
+      [
+        "get_results",
+        "result",
+        "status",
+        "wait"
+      ]
+    ],
+    "answer": [
+      "result"
+    ]
+  },
+  {
+    "id": "AI-901-38",
+    "source": "AI-901",
+    "number": 38,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "Voicemail recordings are audio content . Azure Content Understanding analyzers define what type of content\nto process, including documents, images, audio, or video , and what elements to extract, including\ntranscripts and structured fields.\n\nMicrosoft’s custom analyzer documentation also shows an audio example based on prebuilt-audio for\nprocessing customer support call recordings, which is the same content type as voicemail recordings.\n\nTherefore, to extract a transcript and structured information from voicemail recordings, you should use an\naudio analyzer .",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You are developing an application that analyzes voicemail recordings by using Azure Content Understanding in Foundry Tools. You need to extract a transcript and structured information from the recordings. ： should you use? Which type of analyzer",
+    "options": {
+      "A": "document analyzer",
+      "B": "video analyzer",
+      "C": "audio analyzer",
+      "D": "image analyzer"
+    },
+    "answer": [
+      "C"
+    ]
+  },
+  {
+    "id": "AI-901-39",
+    "source": "AI-901",
+    "number": 39,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "For a vision-enabled model, Microsoft documentation shows that multimodal prompts can include both text\nand image content in the same user message content array. Azure OpenAI vision models accept multimodal\nimage-and-text input and return natural language responses.\n\n request\n\n\"role\": \"user\",\n\n\"content\": [\n\n{\"type\": \"input_text\", \"text\": \"What is in this image?\"},\n\n{\"type\": \"input_image\", \"image_url\": image_url}\n\n]\n\n}\n\nThis avoids sending separate requests and is therefore the best choice for quickest response time.\n\nA and C are incorrect because they send the text and image separately.\n\nB is incorrect because the image/question should be sent as a user message, while system messages are used\nfor instructions and behavior.",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You have a Microsoft Foundry project that contains a vision-enabled model deployment. You need to develop an application that sends a message containing text and an image URL. The solution must ensure the quickest response time. Which message structure should you include in the request?",
+    "options": {
+      "A": "a user message that includes only a text item and sends an image item in a separate request",
+      "B": "a system message that includes both a text item and an image item in the content array",
+      "C": "a system message that includes only a text item and sends an image item in a separate request",
+      "D": "a user message that includes both a text item and an image item in the content array"
+    },
+    "answer": [
+      "D"
+    ]
+  },
+  {
+    "id": "AI-901-40",
+    "source": "AI-901",
+    "number": 40,
+    "category": "Implement AI solutions with computer vision and image-generation capabilities by using Foundry",
+    "explanation": "The requirement is to produce new product images based on written descriptions . This is an image\ngeneration workload, because the AI system is creating entirely new images from natural language prompts.\n\nWhy the other options are incorrect:\n\n B. image\n\n is used to identify and locate objects within an existing image.\n C. object detection\n\n D. optical character recognition\n\n (OCR) is used to extract text from images or scanned documents.\n\nSince the solution must generate new visual content from user-provided descriptions, the correct answer is:\n\nA. image generation",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You need to build an AI solution that produces new product images based on written descriptions provided by users. Which AI workload should you use?",
+    "options": {
+      "A": "image generation",
+      "B": "image analysis",
+      "C": "object detection",
+      "D": "optical character recognition (OCR)"
+    },
+    "answer": [
+      "A"
+    ]
+  },
+  {
+    "id": "AI-901-41",
+    "source": "AI-901",
+    "number": 41,
+    "category": "Implement AI solutions for information extraction by using Foundry",
+    "explanation": "To use Azure Content Understanding in Foundry Tools, Microsoft lists a Microsoft Foundry resource as a\nprerequisite. The documentation states that you need a Microsoft Foundry resource created in a supported\nregion, and that the portal lists this resource under Foundry > Foundry .\n\nThe invoice scenario is also directly aligned with Content Understanding’s intelligent document processing\nuse case: Microsoft states that Content Understanding converts unstructured documents into structured data\nand gives invoice processing as an example.\n\nTherefore, to extract structured data from invoices by using Azure Content Understanding in Foundry Tools,\nyou should provision a Microsoft Foundry resource .",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You have an Azure subscription. You need to use Azure Content Understanding in Foundry Tools to extract structured data from invoices. What should you provision?",
+    "options": {
+      "A": "an Azure OpenAI resource",
+      "B": "a Microsoft Foundry resource",
+      "C": "A Microsoft Foundry project",
+      "D": "an Azure AI Search service"
+    },
+    "answer": [
+      "B"
+    ]
+  },
+  {
+    "id": "AI-901-42",
+    "source": "AI-901",
+    "number": 42,
+    "category": "Identify AI model components and configurations",
+    "explanation": "The completed sentence is:\n\nAfter deploying a vision-enabled GPT model in Microsoft Foundry, you can configure an application to\nsend requests to the endpoint of the model .\n\nTo call a deployed model from an application, the application must send requests to the deployed model’s\nendpoint and include the required authentication credentials. The Foundry playground is used for testing\ninteractively, but application code calls the deployed model endpoint.\n\nThe other options are incorrect:\n\nevaluation pipeline of model is used to evaluate model performance, not to receive inference requests from\nan app.\n\nFoundry playground is an interactive testing environment, not the production target for application requests.\n\ntraining dataset of the model is used for training or fine-tuning, not for sending inference requests.\n\nTherefore, the correct answer is endpoint of the model .",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "After deploying a vision-enabled GPT model in Microsoft Foundry, you can configure an application to send requests to the _____.",
+    "options": [
+      "endpoint of the model",
+      "evaluation pipeline of model",
+      "Foundry playground",
+      "training dataset of the model"
+    ],
+    "answer": [
+      "endpoint of the model"
+    ]
+  },
+  {
+    "id": "AI-901-43",
+    "source": "AI-901",
+    "number": 43,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "input=[\n\n{\n\n\"role\": \"user\",\n\n\"content\": [\n\n{\"type\": \"input_text\", \"text\": \"What is in this image? Provide 3 bullet points.\"},\n\n{\"type\": \"input_image\", \"image_url\": image_url},\n\n],\n\n}\n\n]\n\nprint(response.output_text)\n\nFor a multimodal request that sends both text and an image to an Azure OpenAI model, the input content\narray uses separate content item types. Text content is sent with type: \"input_text\" , and image content is\nsent with type: \"input_image\" . Microsoft’s Azure OpenAI Responses API documentation shows the\nResponses API supports multimodal inputs and uses structured input content items in the request.\n\nThe options output_text and output_image are not used inside the user input content array. In the shown code,\nresponse.output_text is used after the response is returned to print the model’s text answer.",
+    "verified": true,
+    "review_note": "",
+    "type": "code_select",
+    "question": "You have a Microsoft Foundry project that contains a model deployment.\n\n ： an application that sends an image and a user question to the：\nYou are developing\n model.\n\nYou need to send both textand image content in the same request so the model can return\n an answer.\n\nHow should you complete the Python code? To answer, drag the appropriate values to the correct targets.\nEach value may be used once, more than once, or not at all. You may need to drag the split bar between panes\nor scroll to view content.",
+    "template": "input=[{\"role\":\"user\",\"content\":[{\"type\":\"____\",\"text\":\"What is in this image? Provide 3 bullet points.\"},{\"type\":\"____\",\"image_url\":image_url}]}]",
+    "choices": [
+      [
+        "input_image",
+        "input_text",
+        "output_image",
+        "output_text"
+      ],
+      [
+        "input_image",
+        "input_text",
+        "output_image",
+        "output_text"
+      ]
+    ],
+    "answer": [
+      "input_text",
+      "input_image"
+    ]
+  },
+  {
+    "id": "AI-901-44",
+    "source": "AI-901",
+    "number": 44,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "Azure Content Understanding uses transcription to convert audio content, such as voicemail recordings, into\ntext. Microsoft’s Azure Content Understanding audio documentation states that transcription converts\nconversational audio into searchable and analyzable text-based transcripts.\n\nOption A. Voice Live is not the feature used by Content Understanding to convert voicemail recordings into\ntext.\n\nOption B. key phrase extraction identifies important phrases after text is available; it is not the audio-to-text\nconversion step.\n\nOption D. optical character recognition (OCR) is for extracting text from images or documents, not audio.\n\nTherefore, the correct answer is C. transcription .",
+    "verified": true,
+    "review_note": "",
+    "type": "mcq",
+    "question": "You are developing an application that processes voicemail recordings by using Azure Content Understanding in Foundry Tools. Which feature does Azure Content Understanding use to convert audio to text?",
+    "options": {
+      "A": "Voice Live",
+      "B": "key phrase extraction",
+      "C": "transcription",
+      "D": "optical character recognition (OCR)"
+    },
+    "answer": [
+      "C"
+    ]
+  },
+  {
+    "id": "AI-901-45",
+    "source": "AI-901",
+    "number": 45,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "Statement 1: Evaluators in Microsoft Foundry replace the need for configuring token limits. = No\n\nEvaluators are used to assess model or agent output quality, safety, and reliability. They do not replace model\nconfiguration settings such as token limits. Microsoft describes evaluators as tools that measure the quality,\nsafety, and reliability of AI responses.\n\nStatement 2: Evaluators in Microsoft Foundry can assess the quality and safety of responses generated\nby a generative AI model. = Yes\n\nThis is correct. Microsoft Foundry includes built-in evaluators for general quality metrics such as coherence\nand fluency, safety/security metrics, RAG metrics, and agent-specific metrics.\n\nStatement 3: Evaluators in Microsoft Foundry can retrain a deployed generative AI model\nautomatically when quality issues are detected. = No\n\nEvaluators measure and report quality, safety, and reliability issues. They do not automatically retrain\ndeployed generative AI models. Microsoft describes evaluation as measuring model or agent performance\nagainst test data, while monitoring can alert when outputs fail quality thresholds.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "Evaluators in Microsoft Foundry replace the need for configuring token limits.",
+      "Evaluators in Microsoft Foundry can assess the quality and safety of responses generated by a generative AI model.",
+      "Evaluators in Microsoft Foundry can retrain a deployed generative AI model automatically when quality issues are detected."
+    ],
+    "answer": [
+      "No",
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "id": "AI-901-46",
+    "source": "AI-901",
+    "number": 46,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "client = OpenAI(\n\napi_key=\"...\",\n\nbase_url=\"https://resource1.openai.azure.com/openai/v1/\",\n\n)\n\nresponse = client.responses.create(\n\nmodel=\"my-mini-gpt\",\n\n)\n\nFor Azure OpenAI in Microsoft Foundry, the base_url uses the Azure OpenAI resource name in the endpoint\nformat:\n\nhttps:// < resource-name > .openai.azure.com/openai/v1/\n\nIn the question, the Azure OpenAI resource is named Resource1 , so the first blank must be resource1 .\nMicrosoft documentation for Azure OpenAI v1 endpoints confirms that the endpoint must use the ...openai.\nazure.com/openai/v1/ path.\n\nFor the model parameter, Azure OpenAI requires the deployment name , not the underlying model name.\nMicrosoft states that Azure OpenAI always requires the deployment name when calling APIs, even when the\nparameter is named model.\n\nThe deployed model is gpt-4.1-mini , but the deployment name is my-mini-gpt . Therefore, the second blank\nmust be:\n\nmodel=\"my-mini-gpt\"\n\nSo the correct selections are:\n\nbase_url blank =：\n\nmodel blank = my-mini-gpt",
+    "verified": true,
+    "review_note": "",
+    "type": "code_select",
+    "question": "You have a Microsoft Foundry project named project1 that contains an Azure OpenAI resource named\nResource1.\n\nTo Resource1, you deploy a gpt-4.1-mini model by using a model deployment named my-mini-gpt.\n\nYou need to connect to my-mini-gpt from an application.\n\nHow should you complete the Python code? To answer, drag the appropriate values to the correct targets.\nEach value may be used once, more than once, or not at all.",
+    "template": "client = OpenAI(api_key=\"...\", base_url=\"https://____.openai.azure.com/openai/v1/\")\nresponse = client.responses.create(model=\"____\")",
+    "choices": [
+      [
+        "gpt-4.1-mini",
+        "my-mini-gpt",
+        "project1",
+        "resource1"
+      ],
+      [
+        "gpt-4.1-mini",
+        "my-mini-gpt",
+        "project1",
+        "resource1"
+      ]
+    ],
+    "answer": [
+      "resource1",
+      "my-mini-gpt"
+    ]
+  },
+  {
+    "id": "AI-901-47",
+    "source": "AI-901",
+    "number": 47,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "For vision-enabled Azure OpenAI / Microsoft Foundry model requests, image input can be provided by using\nan image URL or base64-encoded image data. Microsoft’s Azure OpenAI REST API reference states that the\nimage content part URL field can contain either a URL of the image or the base64 encoded image data . It\nalso states that the Responses API input_image.image_url value can be a fully qualified URL or a base64\nencoded image in a data URL .",
+    "verified": true,
+    "review_note": "",
+    "type": "multiple_select",
+    "question": "You have a Microsoft Foundry project that contains a vision-enabled model deployment. You are developing an application that sends images to the model. You need to ensure that the model can analyze the images. In which two formats can you provide the images? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
+    "options": {
+      "A": "a JSON document that describes the image content",
+      "B": "a UTF-8 encoded text description of the image",
+      "C": "a publicly accessible URL of the image",
+      "D": "a base64 encoded image data string"
+    },
+    "answer": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "AI-901-48",
+    "source": "AI-901",
+    "number": 48,
+    "category": "Implement generative AI apps and agents by using Foundry",
+    "explanation": "The Model catalog is used for comparing and deploying a wide range of models for generative AI\ndevelopment in Microsoft Foundry.\n\nMicrosoft documentation states that the model catalog in Foundry portal is the hub for discovering and\nusing a wide range of models to build generative AI applications . It also includes many models across\nproviders such as Azure OpenAI, Mistral, Meta, Cohere, NVIDIA, and Hugging Face.\n\nThe Microsoft Learn module for Foundry models also states that the model catalog is used to explore and\nfilter models , compare models using benchmark metrics , and deploy a model to an endpoint .",
+    "verified": true,
+    "review_note": "",
+    "type": "dropdown",
+    "question": "The ____ is used for comparing and deploying a wide range of models for generative AI development in Microsoft Foundry.",
+    "options": [
+      "Model catalog",
+      "Monitor page",
+      "Service endpoints page",
+      "Solution templates page"
+    ],
+    "answer": [
+      "Model catalog"
+    ]
+  },
+  {
+    "id": "AI-901-49",
+    "source": "AI-901",
+    "number": 49,
+    "category": "Identify AI model components and configurations",
+    "explanation": "Instructions define goals, constraints, and behavior for an agent. A defines constraints on model responses, and B defines an agent’s role and behavior. Azure region, model selection, and TPM allocation are deployment or resource settings.",
+    "verified": true,
+    "review_note": "",
+    "type": "multiple_select",
+    "question": "What are two purposes of instructions when prompting a generative AI model? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
+    "options": {
+      "A": "defines constraints on the model's responses",
+      "B": "defines the agent's role and behavior",
+      "C": "defines the Azure region where inference occurs",
+      "D": "selects which model to use",
+      "E": "defines the tokens per minute (TPM) allocation for the model"
+    },
+    "answer": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "AI-901-50",
+    "source": "AI-901",
+    "number": 50,
+    "category": "Describe principles of responsible AI",
+    "explanation": "Statement 1: Human-in-the-loop practices provide accountability for AI-generated decisions. = Yes\n\nMicrosoft responsible AI guidance recommends keeping a human in the loop, maintaining human oversight,\nand ensuring humans have a role in decisions based on model output.\n\nStatement 2: Deploying an AI system to a production environment eliminates the need for ongoing\nmonitoring. = No\n\nMicrosoft guidance states that after deployment, an AI-powered product or feature requires ongoing\nmonitoring and improvement .\n\nStatement 3: Disclosing the team that designed and deployed an AI system provides accountability for\nthe system’s output. = Yes\n\nAccountability in responsible AI means people and organizations remain responsible for AI systems and their\neffects. Identifying the people or team responsible for designing and deploying the system supports\naccountability and governance.",
+    "verified": true,
+    "review_note": "",
+    "type": "yes_no",
+    "question": "For each statement, select Yes if true; otherwise select No.",
+    "statements": [
+      "Human-in-the-loop practices provide accountability for AI-generated decisions.",
+      "Deploying an AI system to a production environment eliminates the need for ongoing monitoring.",
+      "Disclosing the team that designed and deployed an AI system provides accountability for the system’s output."
+    ],
+    "answer": [
+      "Yes",
+      "No",
+      "Yes"
+    ]
+  }
+]
