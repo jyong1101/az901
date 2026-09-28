@@ -1,14 +1,19 @@
-# AI-901 Practice Quiz
+# AI Fundamentals practice quiz
 
-Run from this directory with `python3 -m http.server 8000`, then visit `http://localhost:8000/`.
+Host this folder as a static site. Its `index.html` fetches JSON from `data/` using relative paths, so it works at a GitHub Pages URL such as `/az901/quiz/`. For local use, run `python3 -m http.server 8000` from this directory and open `http://localhost:8000/`.
 
-A web server is needed because browsers usually block `fetch()` of local JSON files opened with `file://`.
+## Banks
 
-- `data/ai-901.json`: 50 normalized questions, seven PDF categories, source answers, explanations, and review flags.
-- `index.html`, `style.css`, `app.js`: quiz interface and behavior.
-- Browser progress is saved locally under `ai-fundamentals:AI-901:v1`. Reset clears only AI-901 quiz progress.
-- AI-900 and Both are intentionally disabled in this phase.
+- AI-901: 50 normalized text questions, with one source answer flagged for review (`AI-901-5`).
+- AI-900: 323 source questions. 164 have text choices and automatic scoring (163 verified; AI-900-143 lacks an explanation). 159 have image-based answer areas and use source image reveal plus self-marking. These are flagged until each answer area can be transcribed and verified manually. AI-900-103 also lacks an extractable explanation. Their original question types are recorded in `source_type`.
+- Both mode includes all 373 questions. Category filtering follows the selected bank(s).
 
-Question 5 preserves the PDF's supplied answer C and is marked for review because the wording and listed classes appear inconsistent. The PDF supplies no explanation for it. Image answer areas were converted into text and interactive controls; no Base64 question images are stored.
+Progress is stored in your own browser. The app imports earlier AI-901 progress from its previous localStorage key. Reset affects the selected bank (or both banks in Both mode).
 
-When adding AI-900 later, normalize its questions in a separate `data/ai-900.json`, add the bank to the loader, and scope saved progress to its question IDs. Validate the new bank independently against its source PDF.
+## Files
+
+- `index.html`, `style.css`, `app.js`: interface and interactions.
+- `data/ai-901.json`, `data/ai-900.json`: source questions and answers.
+- `source-images/`: extracted AI-900 question and answer areas for questions whose text could not be mapped with confidence. No Base64 images are embedded in JSON.
+
+The AI-900 PDF has six categories and 323 questions. The PDF's supplied answers are authoritative for this transcription; ambiguous source content is flagged rather than corrected from outside knowledge.
