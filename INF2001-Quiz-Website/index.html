@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#152f63">
+  <meta name="description" content="INF2001 software engineering practice questions, source explanations, and browser-saved progress.">
+  <title>INF2001 · Software Engineering Practice</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="vendor/marked.umd.js"></script>
+  <script defer src="data/question-data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to practice</a>
+  <header class="topbar">
+    <a class="brand" href="./index.html"><span class="brand-icon" aria-hidden="true">SE</span><span>Study desk<span class="brand-sub">INF2001</span></span></a>
+    <div class="top-actions"><span id="save-status" class="save-status" role="status">Progress stays in this browser</span><button id="results-toggle" class="button secondary">View results</button></div>
+  </header>
+  <div class="app-layout">
+    <aside class="sidebar" aria-label="Practice topics">
+      <div class="sidebar-heading"><p class="eyebrow">YOUR QUESTION BANK</p><h2>Pick a topic</h2></div>
+      <nav id="topics" aria-label="Topics"></nav>
+      <div class="sidebar-note"><span class="note-symbol" aria-hidden="true">!</span><div><strong>2 questions need review</strong><p>Source answers are preserved. Check the flags before using them for revision.</p><button id="review-filter" class="text-button">See flagged questions</button></div></div>
+      <div class="sidebar-foot">2 mock quizzes · Weeks 1–5<br>Single answer, multiple select & written</div>
+    </aside>
+    <main id="workspace" tabindex="-1">
+      <div class="page-heading"><div><p class="eyebrow">INTRODUCTION TO SOFTWARE ENGINEERING</p><h1 id="view-title">Your practice desk</h1></div><span class="module-label">INF2001</span></div>
+      <section id="stats" class="stats" aria-label="Practice summary"></section>
+      <section id="practice-view">
+        <div class="filters">
+          <label class="search-wrap"><span class="sr-only">Search questions</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="search" type="search" placeholder="Search questions, concepts or code…" autocomplete="off"></label>
+          <label><span class="sr-only">Question bank</span><select id="bank"><option value="all">Both mock quizzes</option><option value="1">Mock Quiz 1</option><option value="2">Mock Quiz 2</option></select></label>
+          <label><span class="sr-only">Question status</span><select id="status-filter"><option value="all">All questions</option><option value="unanswered">Unanswered</option><option value="incorrect">Incorrect / partial</option><option value="review">Needs review</option></select></label>
+        </div>
+        <div class="scope-row"><div><strong id="scope-label">All topics</strong><span id="scope-count"></span></div><button class="text-button" id="clear-filters" hidden>Clear filters</button></div>
+        <section id="question" class="question-card" aria-label="Current question"></section>
+        <section class="directory" aria-label="Question navigator"><div class="directory-heading"><div><h2>Question navigator</h2><p>Jump to any question in your selection.</p></div><div class="legend"><span class="legend-correct">Correct</span><span class="legend-incorrect">Incorrect / partial</span><span class="legend-written">Self-assessed</span></div></div><div id="question-list" class="question-list"></div></section>
+      </section>
+      <section id="results-view" hidden aria-label="Results"></section>
+      <footer class="main-footer"><span>Answers and explanations from your supplied mock quizzes.</span><a href="REVIEW.md" target="_blank" rel="noopener">Source review report</a></footer>
+    </main>
+  </div>
+  <dialog id="reset-dialog"><h2>Clear all practice progress?</h2><p>This removes your drafts, answers, and attempt history from this browser.</p><div class="dialog-actions"><button id="cancel-reset" class="button secondary">Keep progress</button><button id="confirm-reset" class="button danger">Clear progress</button></div></dialog>
+  <noscript><p class="noscript">Enable JavaScript to use this quiz. The original questions are in the sources folder.</p></noscript>
+</body>
+</html>
